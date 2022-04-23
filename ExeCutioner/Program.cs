@@ -1,9 +1,3 @@
-﻿
-/*This code was built using chvancooten/OSEP-Code-Snippets as a template and knowlege from the OSEP course.
- * Additional resources from microsoft: https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.windowsidentity.impersonate?view=netframework-4.8
- * Really helped me understand the process of remotely starting a binary as a service for lateral movement
- * This code also includes an AV wiping feature which can come in handy 
- */
 
 using System;
 using System.Runtime.InteropServices;
