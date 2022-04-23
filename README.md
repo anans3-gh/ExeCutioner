@@ -9,7 +9,6 @@ This is an Offensive C# Tool written to execute commands on Domain-joined Window
 
 It also supports a "PsExeclike" lateral movement technique that attempts to fly under the radar of basic defenses and can be used to clear AV Definitions to further make attacks easier.
 
-It was heavily inspired by the OSEP course and leverages code and ideas from https://github.com/chvancooten/OSEP-Code-Snippets
                       
 ```
 ExeCutioner.exe /t <target> /user <username>  /pass <password>  /domain <domain> <command-to-run>
