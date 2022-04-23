@@ -23,7 +23,7 @@ Options:
 /pass - specifies password to use
 /t - specifies the target
 /syscreds - ignores the user specified and uses the token of the currently logged in user
-user - specifies the target user account
+/user - specifies the target user account
 ```
 
 Usage:
