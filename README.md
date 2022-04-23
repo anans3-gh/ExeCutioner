@@ -47,6 +47,8 @@ ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /cmd <\
 ```
 
 # Credits
-Heavily inspired by https://github.com/chvancooten/OSEP-Code-Snippets
-Invaluable knowledge from the OSEP Course https://www.offensive-security.com/pen300-osep/
+- Heavily inspired by "[chvancooten](https://github.com/chvancooten/OSEP-Code-Snippets)" 
+- Invaluable knowledge from the "[OSEP Course](https://www.offensive-security.com/pen300-osep/)"
+- Great resource from "[Microsoft](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.windowsidentity.impersonate?view=netframework-4.8)"
+
 
