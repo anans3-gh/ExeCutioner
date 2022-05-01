@@ -350,7 +350,7 @@ Executes code on Remote Domain Joined machines
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain <domain> /nofw true\n");
 
             Console.WriteLine("//Authenticate to target with current system token and remove Windows Defender Signature Definitions");
-            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /nofw true\n");
+            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /noav true\n");
 
             Console.WriteLine("//Authenticate to target with current system token and execute command");
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /cmd <command-to-run-in-qoutes>\n");
