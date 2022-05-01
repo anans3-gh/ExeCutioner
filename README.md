@@ -37,8 +37,8 @@ ExeCutioner.exe /?  - show's this help menu
 //Authenticate to target with username and password and disable firewall profiles
 ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain <domain> /nofw true
 
-//Authenticate to target with current user token and turn off av - useful and facilitates easier lateral movement/code execution
-ExeCutioner.exe /t <target name or IP> /syscreds true /nofw true
+//Authenticate to target with current user token and turn off av (Windows Defender) - useful and facilitates easier lateral movement/code execution
+ExeCutioner.exe /t <target name or IP> /syscreds true /noav true
 
 //Authenticate to target with current user token and execute command
 ExeCutioner.exe /t <target name or IP> /cmd <command-to-run-in-qoutes>
