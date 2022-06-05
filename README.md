@@ -50,6 +50,11 @@ ExeCutioner.exe /t <target name or IP> /syscreds /cmd <C:\lateralmovement.exe>
 ExeCutioner.exe /t <target name or IP> /syscreds /addadmin true
 ```
 
+#YouTube Video
+Below is a link to see the tool in action on my YouTube channel
+
+https://youtu.be/CiZMVVAka8Y
+
 # Credits
 - Heavily inspired by and leveraged code from "[chvancooten's Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets)" 
 - Great resource from "[Microsoft](https://docs.microsoft.com/en-us/dotnet/api/system.security.principal.windowsidentity.impersonate?view=netframework-4.8)"
