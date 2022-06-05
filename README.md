@@ -37,13 +37,13 @@ ExeCutioner.exe /?  - show's this help menu
 //Authenticate to target with username and password and disable firewall profiles
 ExeCutioner.exe /t <target name or IP> /user <username> /pass <password> /domain <domain> /nofw true
 
-//Authenticate to target with current user token and remove AV signatures (Windows Defender) - useful and facilitates easier lateral movement/code execution
+//Authenticate to target with current system token and remove Windows Defender Signature Definitions) - useful and facilitates easier lateral movement/code execution
 ExeCutioner.exe /t <target name or IP> /syscreds true /noav true
 
 //Authenticate to target with current user token and execute command
 ExeCutioner.exe /t <target name or IP> /syscreds /cmd <command-to-run-in-qoutes>
 
-//Authenticate to target with current user token and execute binary for lateral movement. Works when with binaries dropped unto target.
+//Authenticate to target with current user token and execute binary for lateral movement. Works when with binaries on disk.
 ExeCutioner.exe /t <target name or IP> /syscreds /cmd <C:\lateralmovement.exe>
 
 //Authenticate to target with current user token and add a new Local Administrator - username "newguy" with password "MakeLife123"
