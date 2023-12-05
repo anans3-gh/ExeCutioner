@@ -353,13 +353,13 @@ Executes code on Remote Domain Joined machines
             Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /noav true\n");
 
             Console.WriteLine("//Authenticate to target with current system token and execute command");
-            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds /cmd <command-to-run-in-qoutes>\n");
+            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /cmd <command-to-run-in-qoutes>\n");
 
             Console.WriteLine("//Authenticate to target with current system token and execute binary for lateral movement. Works well with binaries on disk");
-            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds /cmd <C:\lateralmovement.exe>\n");
+            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /cmd <C:\lateralmovement.exe>\n");
             
             Console.WriteLine("//Authenticate to target with current user token and add a new Local Administrator - username: newguy and password: MakeLife123");
-            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds /addadmin true");
+            Console.WriteLine("ExeCutioner.exe /t <target name or IP> /syscreds true /addadmin true");
 
             return;
         }
